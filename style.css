@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', Helvetica, Arial;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.bg{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+
+.perfil {
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    background: black;
+    opacity: 90%;
+    border: 3px solid white;  
+    text-align: left; 
+    vertical-align: middle;
+    padding: 40px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    max-width: 70%;    
+    z-index: 2;
+    top: 50%;
+    left: 50%;    
+    transform: translate(-25%, -50%);
+}
+
+.avatar {
+    width: 40%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    vertical-align: middle;
+    padding: 40px;
+    line-height: 20px;
+    max-width: 70%;    
+    z-index: 2;    
+    transform: translate(-80%, -50%);
+    box-sizing: content-box;
+}
+
+.avatar img {
+    width: 50%;
+    border: solid 3px white;
+}
+
+a {
+    text-decoration: none;
+    color: #aaaaaa;
+}
